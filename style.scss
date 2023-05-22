@@ -1,3 +1,24 @@
 h1 {
     color: red;
 }
+
+.animated-container {
+    height: 10px;
+    background: linear-gradient(270deg, #5e6de3, #00d29c, #ee5253, #f368e0, #ff9f43);
+}
+.search-result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.result-card {
+    width: calc(33.33% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+}
+.input-group {
+    margin: 30px 0;
+    width: 50% !important;
+}
